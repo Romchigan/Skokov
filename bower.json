@@ -1,0 +1,22 @@
+{
+  "name": "HeyU",
+  "homepage": "https://github.com/Romchigan/HeyU",
+  "authors": [
+    "Romchigan <ronaldo.mail97@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "components-font-awesome": "^4.7.0"
+  }
+}
