@@ -1,0 +1,59 @@
+.sidebar {
+  &-search {
+    background-color: $dark-gray;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    &-input {
+      background-color: #f6f6f6;
+      color: #737373;
+      font: bold 18px century-gothic;
+      padding: 2px 50px 2px 20px;
+      width: 360px;
+      @include border-radius(14px);
+      position: relative;
+      outline: none;
+      background-image: url("../img/sidebar/search-icon.png");
+      background-repeat: no-repeat;
+      background-position: center right 1.5rem;
+      background-size: 1.150rem 1.150rem;
+    }
+  }
+  &-categories {
+    background-color: $dark-gray;
+    padding-bottom: 50px;
+    &-heading {
+      color: $yellow;
+      font: bold 20px/21px century-gothic;
+      padding: 35px 0 0 35px;
+      margin-bottom: 35px;
+    }
+    &-list {
+      list-style-type: none;
+      padding-left: 35px;
+    }
+    &-item {
+      color: $white;
+      font: bold 16px/21px century-gothic;
+      margin-bottom: 25px;
+      a {
+        color: $white;
+        &:hover {
+          color: $yellow;
+        }
+      }
+      &::before {
+        content: "\f105";
+        font-family: FontAwesome;
+        position: relative;
+        background-color: $yellow;
+        color: #403f46;
+        padding: 1px 11px 4px 11px;
+        margin-right: 10px;
+        font-size: 25px;
+      }
+    }
+    &-icon {
+
+    }
+  }
+}
