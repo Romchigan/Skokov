@@ -1,0 +1,22 @@
+html {
+  padding: 15px;
+  background-color: $white;
+}
+
+body {
+  margin: 0;
+
+  background-color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited,
+  &:link
+  {
+    text-decoration: none;
+  }
+}

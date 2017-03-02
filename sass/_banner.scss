@@ -1,0 +1,17 @@
+.banner {
+  &-wrap {
+    background: url("../img/banner.png")  no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    margin: 30px 0 80px;
+  }
+  &-heading {
+    background-color: #424146;
+    color: #ffea00;
+    font: bold 35px/21px century-gothic;
+    width: 320px;
+    padding: 22px;
+    margin-left: 60px;
+    letter-spacing: 1px;
+  }
+}

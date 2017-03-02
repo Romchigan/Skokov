@@ -1,0 +1,40 @@
+.header-section {
+  position: relative;
+  top: 25px;
+  width: 100%;
+  padding: 0 4% 0 4%;
+}
+
+.wrap-nav {
+  width: 98%;
+}
+
+.navbar-toggleable-md .navbar-collapse {
+  width: auto;
+}
+
+.navbar-light .navbar-nav {
+  .active>.nav-link {
+    color: $black;
+    font: bold 16px/32px CodeBold;
+    letter-spacing: 2px;
+    background-color: #ffea00;
+  }
+  .nav-link {
+    color: $black;
+    font: bold 16px/32px CodeBold;
+    letter-spacing: 2px;
+    &:hover {
+      color: $black;
+      background-color: #ffea00;
+    }
+  }
+}
+
+.nav-link {
+  padding: 1.2em .8em;
+}
+
+.nav-item {
+  padding-left: 55px;
+}
