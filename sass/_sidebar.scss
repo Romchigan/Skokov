@@ -1,4 +1,7 @@
 .sidebar {
+  &-wrap {
+    overflow: hidden;
+  }
   &-search {
     background-color: $dark-gray;
     padding: 20px 0;
@@ -20,7 +23,8 @@
   }
   &-categories {
     background-color: $dark-gray;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
     &-heading {
       color: $yellow;
       font: bold 20px/21px century-gothic;
@@ -52,8 +56,34 @@
         font-size: 25px;
       }
     }
-    &-icon {
-
+  }
+  &-posts {
+    &-list {
+      list-style-type: none;
+      padding-left: 35px;
+    }
+    &-item {
+      margin-bottom: 25px;
+      padding-right: 30px;
+    }
+    &-text {
+      font: bold 16px/20px century-gothic;
+      padding-left: 10px;
     }
   }
+  &-tags {
+    &-list{
+      list-style-type: none;
+      padding: 0 35px 0 35px;
+    }
+    &-item {
+      color: #424147;
+      font: bold 16px/20px century-gothic;
+      background-color: #ffea00;
+      display: inline-block;
+      padding: 6px 9px;
+      margin-bottom: 10px;
+    }
+  }
+
 }
