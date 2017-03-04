@@ -9,7 +9,7 @@
     &-input {
       background-color: #f6f6f6;
       color: #737373;
-      font: bold 18px century-gothic;
+      font: 100 18px century-gothic, sans-serif;
       padding: 2px 50px 2px 20px;
       width: 360px;
       @include border-radius(14px);
@@ -27,7 +27,7 @@
     margin-bottom: 30px;
     &-heading {
       color: $yellow;
-      font: bold 20px/21px century-gothic;
+      font: 100 20px/21px century-gothic, sans-serif;
       padding: 35px 0 0 35px;
       margin-bottom: 35px;
     }
@@ -37,7 +37,7 @@
     }
     &-item {
       color: $white;
-      font: bold 16px/21px century-gothic;
+      font: 100 16px/21px century-gothic, sans-serif;
       margin-bottom: 25px;
       a {
         color: $white;
@@ -67,7 +67,7 @@
       padding-right: 30px;
     }
     &-text {
-      font: bold 16px/20px century-gothic;
+      font: bold 16px/20px century-gothic, sans-serif;
       padding-left: 10px;
     }
   }
@@ -78,7 +78,7 @@
     }
     &-item {
       color: #424147;
-      font: bold 16px/20px century-gothic;
+      font: bold 16px/20px century-gothic, sans-serif;
       background-color: #ffea00;
       display: inline-block;
       padding: 6px 9px;
