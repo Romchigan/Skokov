@@ -1,0 +1,75 @@
+.blog {
+  &-quote {
+    background-color: #ffea00;
+    width: 480px;
+    margin-bottom: 30px;
+    &-text {
+      color: $black;
+      font: italic 21px/27px century-gothic, sans-serif;
+      padding: 10px 0 0 20px;
+    }
+    &-author {
+      padding: 0 10px 6px 0;
+      margin-top: -12px;
+      color: $black;
+      font: bold italic 11px century-gothic, sans-serif;
+    }
+  }
+  &-post {
+    &-list {
+      list-style-type: none;
+    }
+    &-wrap-news {
+      background-color: $yellow;
+      width: 480px;
+      padding: 25px;
+      position: relative;
+      margin-top: -10px;
+      &::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: 50px;
+        transform: rotate(45deg);
+        width: 35px;
+        height: 35px;
+        border: none;
+        background-color: $yellow;
+      }
+    }
+    &-item {
+      display: inline-block;
+      margin: 0 20px 30px 0;
+      vertical-align: top;
+    }
+    &-heading {
+      color: $black;
+      font: 100 22px/30px century-gothic, sans-serif;
+      margin-bottom: 25px;
+    }
+    &-info {
+      color: #5e5e5e;
+      font: bold 14px/20px century-gothic, sans-serif;
+    }
+    &-like {
+      position: relative;
+      color: #5e5e5e;
+      font: bold 12px/20px century-gothic, sans-serif;
+      margin-top: 15px;
+      padding-left: 17px;
+      &::after {
+        content: "\f004";
+        font-family: FontAwesome;
+        position: absolute;
+        font-size: 13px;
+        left: 0;
+      }
+    }
+    &-data {
+      color: $black;
+      font: bold 12px/20px century-gothic, sans-serif;
+      margin-top: -20px;
+    }
+  }
+}
+
